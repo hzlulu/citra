@@ -49,11 +49,11 @@ android {
     externalNativeBuild {
         cmake {
             path "../../../CMakeLists.txt"
-            version '3.31.0'
+            version '3.31.6'
         }
     }
 
-    ndkVersion = '27.2.12479018'
+    ndkVersion = '29.0.14206865'
     lint {
         abortOnError false
     }
